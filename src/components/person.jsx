@@ -16,7 +16,7 @@ export default () => {
   return (
     <div>
       <h2>Nomes</h2>
-      <ul>{getPersons()}</ul>
+      <ul>{console.log(getPersons())}</ul>
     </div>
   );
 };
