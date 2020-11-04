@@ -8,7 +8,8 @@ import Card from './components/layout/card';
 import Repeticao from './components/repeticao';
 import Condicional from './components/condicional';
 import CondicionalIf from './components/condicionalComIf';
-// import Person from './components/person';
+import Person from './components/person';
+import Fiscais from './data/fiscais';
 
 export default (props) => (
   <div className="App">
@@ -44,8 +45,11 @@ export default (props) => (
     <Card titulo="Par ou Ímpar com IF">
       <CondicionalIf numero={9}></CondicionalIf>
     </Card>
-    {/* <Card titulo="Dados API Django">
+    <Card titulo="Dados API Django">
       <Person></Person>
-    </Card> */}
+    </Card>
+    <Card titulo="Lista de Fiscais">
+      <Fiscais></Fiscais>
+    </Card>
   </div>
 );

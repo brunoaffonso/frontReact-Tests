@@ -2,6 +2,8 @@ import React from 'react';
 
 import produtos from '../data/produtos';
 
+// console.log(produtos);
+
 export default (props) => {
   function getProdutosPorItem() {
     return produtos.map((prod) => {
